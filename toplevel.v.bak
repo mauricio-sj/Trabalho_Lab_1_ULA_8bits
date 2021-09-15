@@ -1,0 +1,7 @@
+module toplevel;
+
+ALU alu1( .ALU_controle({button0, button1, button2, button3}), .
+
+
+
+endmodule

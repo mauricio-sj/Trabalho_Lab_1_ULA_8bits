@@ -1,0 +1,86 @@
+# reading modelsim.ini
+# Loading project fsm
+# reading modelsim.ini
+# reading /home/osmar/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project ula
+# Compile of ula_8bits.v was successful.
+# Compile of ula_8bits_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of ula_8bits.v was successful.
+# Compile of ula_8bits_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_alu
+# vsim work.tb_alu 
+# Start time: 21:52:55 on Sep 01,2021
+# Loading work.tb_alu
+# Loading work.ALU
+run -all
+# Entrada_A:166 Entrada_B:128  ALU_controle: 1 Saida: 38 CarryOut:1
+# Entrada_A:240 Entrada_B: 80  ALU_controle: 2 Saida:160 CarryOut:1
+# Entrada_A:242 Entrada_B: 21  ALU_controle: 4 Saida:  1 CarryOut:1
+# Entrada_A:242 Entrada_B: 21  ALU_controle: 8 Saida:  1 CarryOut:1
+# ** Note: $stop    : /home/osmar/lab1a/ativ1/ModelSim/ula_8bits_tb.v(35)
+#    Time: 40 ns  Iteration: 0  Instance: /tb_alu
+# Break in Module tb_alu at /home/osmar/lab1a/ativ1/ModelSim/ula_8bits_tb.v line 35
+# A time value could not be extracted from the current line
+# Compile of ula_8bits.v was successful.
+# Compile of ula_8bits_tb.v failed with 4 errors.
+# 2 compiles, 1 failed with 4 errors.
+# Compile of ula_8bits_tb.v failed with 5 errors.
+# Compile of ula_8bits_tb.v failed with 5 errors.
+# Compile of ula_8bits_tb.v was successful.
+vsim work.tb_alu
+# End time: 22:01:14 on Sep 01,2021, Elapsed time: 0:08:19
+# Errors: 0, Warnings: 10
+# vsim work.tb_alu 
+# Start time: 22:01:14 on Sep 01,2021
+# Loading work.tb_alu
+# Loading work.ALU
+run -all
+# Entrada_A:166 Entrada_B:128  ALU_controle: 1 Saida: 38 CarryOut:1
+# Entrada_A:240 Entrada_B: 80  ALU_controle: 2 Saida:160 CarryOut:1
+# Entrada_A:242 Entrada_B: 21  ALU_controle: 4 Saida: 16 CarryOut:1
+# Entrada_A:242 Entrada_B: 21  ALU_controle: 8 Saida:247 CarryOut:1
+# Entrada_A:162 Entrada_B:190  ALU_controle: 1 Saida: 96 CarryOut:1
+# Entrada_A:202 Entrada_B: 17  ALU_controle: 1 Saida:219 CarryOut:0
+# Entrada_A: 46 Entrada_B:205  ALU_controle: 1 Saida:251 CarryOut:0
+# Entrada_A:142 Entrada_B: 52  ALU_controle: 1 Saida:194 CarryOut:0
+# Entrada_A:221 Entrada_B: 73  ALU_controle: 1 Saida: 38 CarryOut:1
+# Entrada_A:198 Entrada_B: 23  ALU_controle: 1 Saida:221 CarryOut:0
+# Entrada_A:225 Entrada_B:222  ALU_controle: 1 Saida:191 CarryOut:1
+# Entrada_A: 33 Entrada_B: 74  ALU_controle: 1 Saida:107 CarryOut:0
+# Entrada_A:162 Entrada_B: 41  ALU_controle: 1 Saida:203 CarryOut:0
+# Entrada_A:146 Entrada_B:169  ALU_controle: 1 Saida: 59 CarryOut:1
+# Entrada_A:140 Entrada_B:201  ALU_controle: 2 Saida:195 CarryOut:1
+# Entrada_A: 48 Entrada_B:244  ALU_controle: 2 Saida: 60 CarryOut:1
+# Entrada_A: 33 Entrada_B: 49  ALU_controle: 2 Saida:240 CarryOut:0
+# Entrada_A: 67 Entrada_B: 53  ALU_controle: 2 Saida: 14 CarryOut:0
+# Entrada_A:165 Entrada_B:115  ALU_controle: 2 Saida: 50 CarryOut:1
+# Entrada_A:146 Entrada_B:134  ALU_controle: 2 Saida: 12 CarryOut:1
+# Entrada_A:171 Entrada_B:248  ALU_controle: 2 Saida:179 CarryOut:1
+# Entrada_A:133 Entrada_B: 15  ALU_controle: 2 Saida:118 CarryOut:0
+# Entrada_A: 19 Entrada_B: 63  ALU_controle: 2 Saida:212 CarryOut:0
+# Entrada_A: 81 Entrada_B:152  ALU_controle: 2 Saida:185 CarryOut:0
+# Entrada_A:  1 Entrada_B:220  ALU_controle: 4 Saida:  0 CarryOut:0
+# Entrada_A:124 Entrada_B: 62  ALU_controle: 4 Saida: 60 CarryOut:0
+# Entrada_A: 23 Entrada_B: 34  ALU_controle: 4 Saida:  2 CarryOut:0
+# Entrada_A:107 Entrada_B:244  ALU_controle: 4 Saida: 96 CarryOut:1
+# Entrada_A:235 Entrada_B: 19  ALU_controle: 4 Saida:  3 CarryOut:0
+# Entrada_A:107 Entrada_B:223  ALU_controle: 4 Saida: 75 CarryOut:1
+# Entrada_A:251 Entrada_B:236  ALU_controle: 4 Saida:232 CarryOut:1
+# Entrada_A: 27 Entrada_B:127  ALU_controle: 4 Saida: 27 CarryOut:0
+# Entrada_A:  2 Entrada_B: 84  ALU_controle: 4 Saida:  0 CarryOut:0
+# Entrada_A:232 Entrada_B:230  ALU_controle: 4 Saida:224 CarryOut:1
+# Entrada_A: 75 Entrada_B: 65  ALU_controle: 8 Saida: 75 CarryOut:0
+# Entrada_A: 21 Entrada_B:229  ALU_controle: 8 Saida:245 CarryOut:0
+# Entrada_A:102 Entrada_B: 95  ALU_controle: 8 Saida:127 CarryOut:0
+# Entrada_A: 37 Entrada_B:203  ALU_controle: 8 Saida:239 CarryOut:0
+# Entrada_A:123 Entrada_B:131  ALU_controle: 8 Saida:251 CarryOut:0
+# Entrada_A:239 Entrada_B:219  ALU_controle: 8 Saida:255 CarryOut:1
+# Entrada_A: 20 Entrada_B:178  ALU_controle: 8 Saida:182 CarryOut:0
+# Entrada_A:115 Entrada_B:248  ALU_controle: 8 Saida:251 CarryOut:1
+# Entrada_A:147 Entrada_B:  5  ALU_controle: 8 Saida:151 CarryOut:0
+# Entrada_A:240 Entrada_B:211  ALU_controle: 8 Saida:243 CarryOut:1
+# ** Note: $stop    : /home/osmar/lab1a/ativ1/ModelSim/ula_8bits_tb.v(73)
+#    Time: 200 ns  Iteration: 0  Instance: /tb_alu
+# Break in Module tb_alu at /home/osmar/lab1a/ativ1/ModelSim/ula_8bits_tb.v line 73
